@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav p {
+  position: absolute;
+  left: 0;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-style: italic;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
