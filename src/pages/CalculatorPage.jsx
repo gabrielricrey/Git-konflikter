@@ -18,3 +18,5 @@ const CalculatorPage = () => {
         </div>
     )
 }
+
+export default CalculatorPage;
