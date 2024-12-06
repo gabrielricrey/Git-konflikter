@@ -1,8 +1,4 @@
-const buttons = {
-    number: [
-        
-    ]
-}
+import CalculatorNumbers from "./CalculatorPage/CalculatorNumbers"
 
 const CalculatorPage = () => {
     return (
@@ -10,11 +6,11 @@ const CalculatorPage = () => {
             <h2>Calculator</h2>
             <div id="calculator-container">
                 <div id="calculator-buttons">
-                    <div id="calculator-numbers">
-                        
-                    </div>
+                    <CalculatorNumbers />
                 </div>
             </div>
         </div>
     )
 }
+
+export default CalculatorPage
