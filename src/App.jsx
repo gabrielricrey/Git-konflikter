@@ -10,8 +10,9 @@ function App() {
 
   return (
     <>
-    <h1>Git-Konflikter</h1>
+
     <nav>
+      <p>Git-Konflikter</p>
       <ul>
         <li>
             <Link to="/calculator">Calculator</Link>
